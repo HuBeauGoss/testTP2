@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="30" failures="0" name="umons.fpms.ig19.Ig19Suite" time="1.778" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\UMONS\TP\CI-CD\TP_JAVA_Maven"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="umons.fpms.ig19.Ig19Suite"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\UMONS\TP\CI-CD\TP_JAVA_Maven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\noffa\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-11.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-11.0\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Java\jdk-12.0.1\lib;C:\maven\bin;C:\Jenkins;C:\Program Files\Java\jre1.8.0_221;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs;C:\Users\noffa\AppData\Local\Android\Sdk\platform-tools;C:\Users\noffa\AppData\Local\Android\Sdk\platforms;C:\Users\noffa\AppData\Local\Android\Sdk\tools\;C:\Users\noffa\AppData\Local\Android\Sdk\tools\bin\;C:\Users\noffa\AppData\Roaming\npm\;C:\Program Files\R\R-3.6.0\bin\x64;C:\Python37\Scripts;C:\Python37\Lib;C:\Python37\libs;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenVPN\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\PuTTY\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Live\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\noffa\AppData\Local\Microsoft\WindowsApps;C:\Users\noffa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\noffa\AppData\Local\GitHubDesktop\bin;C:\Users\noffa\AppData\Local\Microsoft\WindowsApps;C:\Users\noffa\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="56.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\noffa"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="user.name" value="noffa"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-11.0\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=umons.fpms.ig19.Ig19Suite -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.0\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.1"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-11.0\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="umons.fpms.ig19.DataAccessTest" name="testConnect" time="0.962"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testSetDateNaiss" time="0.001"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testSetFirstname" time="0"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testAdd" time="0.185"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testToString" time="0"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testSelect_0args" time="0.023"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testGetName" time="0.001"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testGetListCours" time="0.041"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testGetLieuNaiss" time="0"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testGetDateNaiss" time="0.001"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testGetFirstname" time="0"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testDelete" time="0.026"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testSetName" time="0.001"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testUpdate" time="0.091"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testSetLieuNaiss" time="0.001"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testSelect_String" time="0.028"/>
+  <testcase classname="umons.fpms.ig19.ProfTest" name="testSelect_int" time="0.023"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testGetDuree" time="0.001"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testAdd" time="0.2"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testToString" time="0.001"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testSelect_0args" time="0.024"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testGetProf" time="0"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testDelete" time="0.058"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testSetProf" time="0.001"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testUpdate" time="0.074"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testSelect_String" time="0.024"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testSetIntitule" time="0"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testSelect_int" time="0.01"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testGetIntitule" time="0"/>
+  <testcase classname="umons.fpms.ig19.CoursTest" name="testSetDuree" time="0.001"/>
+</testsuite>
